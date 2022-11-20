@@ -1,0 +1,34 @@
+# Don't try to do inline comments.  Things break.
+
+site.code-workspace
+.vscode
+/.vscode
+/.vscode/**
+
+# Ignore "ignoreme"
+/.ignoreme
+/.ignoreme
+/.ignoreme/**
+
+# Ignore secrets
+/.env
+/*.env
+/*.env-*
+
+# Ignore clutter
+.netlify
+/.netlify
+/.netlify/**
+.jekyll-cache
+/.jekyll-cache
+/.jekyll-cache/**
+vendor
+.jekyll-metadata
+
+# Ignore static output folder
+_site
+/_site/
+/_site/**
+
+# Ignore Gemfile lock (rebuild it with bundle install when installing to a new local dev environment)
+Gemfile.lock
